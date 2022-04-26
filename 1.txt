@@ -1,0 +1,148 @@
+		Software Developer
+
+
+
+		Logics       OOPS
+=========================================================
+		Btech,Mtech,Degree,MCA
+	  	Java,.net,python,angular
+==========================================================
+1. Operators
+2. variables
+3. Datatypes
+4. Conditonal Statements 
+5. Loops
+6. Arrayss
+7. Strings
+8. PDLC(Program Development Life Cycle)
+=================================
+Q)what is Software?
+    Software is collection of Programs 
+Q)why to develop a Software?
+     we have to develop software to automate the manual process
+Q)what is program?
+     program is set of instructions given to a computer 
+Q)why to develop a program?
+     we have to develop a program to automate a particular task 
+Q)what Skills are required to develop Programs?
+     1. Logical Skills
+     2. Problem Solving Skills
+     3. Basic Mathematics
+     4. Programming Syntax 
+================================
+Q)what is Data?
+     Data is collection of rawfacts 
+		               Data
+
+	       numeric                       character          boolean
+	
+	integer  floatingpoint          SC   GC  ANC
+Q)what is a number?
+    number is a digit or combination of digits
+    Different types of numbers are:-
+   1. Single Digit no    0-9
+  2. Double Digit no  :- 10-99
+  3. Triple Digit no    :- 100-999
+  4. Four Digit no      :- 1000 -9999
+Q)Display the sum of the Digits for The given 4 digit no?
+           4532
+           	Th  H   T    O	
+	4    5    3    2
+         4+5+3+2 =14
+Q)Display the sum of the Even Digits for The given 4 digit no?
+            4532
+     1. Check whether the given digit is even digit or not 
+          4+2=6
+Q)Display the sum of the Odd Digits for The given 4 digit no?
+            4532
+     1. Check whether the given digit is even digit or not 
+           5+3=8
+Q)Display the sum of First Digit and Last Digit?
+        4+2=6
+Q)Display the sum of Middle Digits?
+       5+3=8
+Q)Display the sum of the Squares of the Digits for the given 3 digit no?
+      123
+           2       2     2
+         1   + 2    +3
+
+         1+4+9=14
+Q)wap to check whether the given 3 digit number is Armstrong no or not?
+      Armstrong number:-Armstrong number means if the sum of the cubes of the 
+       Digits is equal to given no
+    153 =  3       3      3
+             1     +5    +3
+             1+125+27=153
+     so 153 is armstrong no 
+    Ex:- 
+       151=       3       3       3
+                    1     +5     +1 
+ 
+                  1+125+1=127 is not Armstrong no 
+ Casestudies:-
+   Check whether the given nos are armstrong nos are not 
+        1 . 534     2.  1092    3. 0   4.1   5.  370.   6. 765   7. 371  
+Q)Check wheteher the given no is palindrome or not?
+     Palindrome:- if Given no is equal to reverse no then we can say that the given 
+      no is palindrome 
+           given no     reverse no
+         151 	              151
+         1001               1001
+          573                 375
+        madam            madam
+       malayalam        malayalam 
+      sathya                ayhtas
+       liril                      liril
+       dad                       dad
+        mom                     mom
+        amma                amma
+          papa                apap
+Q)Display the Factorial of the given no?
+      Factorial is the product of all the integers from 1 to given no
+      5!    5*4*3*2*1=120
+      4!= 4*3*2*1  = 24
+Q)check whether the given no is perfect no or not?
+      a perfect no is a positive integer that is equal to sum of its positive divisors 
+      excluding the no itself 
+    --->what is the difference between / and %?
+               / will gives us quotient 
+              % will gives us remainder 
+               5/2 =2          2)5(2    ---->quotient
+                                     4
+                                   -------
+               5%2=1        1      ---------->remainder
+
+      6        6%1    6%2      6%3    6%4    6%5    
+
+                   0          0            0          2           1
+ Divisors of 6 :- 1,2,3
+            sum of divisiors  =1+2+3 =6
+           6 is perfect no
+   casestudy:- 
+    check wheteher 7 is perfect no or not 
+    check wheteher 4 is perfect no or not 
+    check wheteher 8 is perfect no or not 
+     check wheteher 28 is perfect no or not 
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

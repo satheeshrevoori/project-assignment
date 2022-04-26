@@ -1,0 +1,190 @@
+Operators:-
+An Operator  is used to perform operation on 2 or more operands 
+
+	2+3
+Q)what is an operand?
+    an operand may be value or a variable 
+Q)what is an Expression?
+    asn Expression is the combination of 2 or more operators 
+          2+3-5*6/2
+      note :- whenever we solve an expression it will return a boolean value
+      either true or false
+Different Types of Operators are:-
+1. Arthimetic Operators   +,-,*,/,%
+2. Relational Operators    <,>,<=,>=,==,!=
+3. Logical Operators         &&,||
+4. Assignment Operator     =
+5. increment and Decrement   ++,--
+ Arthimetic Operators  are sed to perform Arthimetic operations like addition,subtraction,multiplication,division,modulodivision 
+5+2  =7
+5-2=3
+5*2=10
+5/2=2
+5%2=1
++ operator is called as overloaded operator 
+it will perform addition operation between numbers and concadination operation between strings  
+2+3=5 			int+int=int
+2.3+3.4=5.7		double+double=double
+2+3.4=5.4			int+double=double
+"abc"+"def"="abcdef"	String+String=String
+2+"ab"="2ab"		int+String=String
+"ab"+2="ab2"		Anydatatype+String=String
+ 2+3+"ab"="5ab"
+ "ab"+2+3="ab23"
+ "ab"+(2+3)="ab5"
+ "sum is"+(2+3)="sum is 5"
+Q)what is the difference between / and %?
+       / will gives us quotient 
+      % will gives us remainder
+	7/2	7%2
+	2)7(3.5
+                      6
+                    ------
+                       10
+                       10
+                     -------
+                        0
+Note:- in mathematics
+           7/2 is 3.5
+   in any programming languages like C#.net,java
+        int/int=int 	      7/2=3
+        int/double=double     7/2.0=3.5
+        7%2=1
+    note:- if the numerator is lessthan denominator then quotient is 0
+    and remaider is numerator 
+      5/7=0	5%7 =5
+q)How to solve an Expression?
+  we can solve the expression based on the priority of the operator 
+  1st  ()
+  2nd  *,/,%
+  3rd  +,-
+  4th   =
+   2+3-4*5/6+3
+   3+4/2-5*6/7+3/4
+=============
+Operators:
+•What is an operator & operand?
+•How many types of operators supports?
+•What is the value of 6/11+6%11 ?
+•When + operator act an Addition operator & Concatenation operator?
+•What is the value of  +1%2?
+•What is the output of relational operators?
+•What is the Difference between = and ==?
+•What is the difference between && ,||?
+•Which datatype is recommended to store Boolean value?
+•When we solve a condition what value it will return?
+•When we solve an Expression  what it will return?
+•System.out.println (10>=5 && 10<-10);
+•int i=10+2-3*4+5/6-7%3-2/3; (i);
+•bool b=10-3+4-5*6+7-6/4+8>=9-9+18-9+9*9/9+9; 
+ •Which Operator is used to assign the value to variable?
+•Which operator is used to compare  the Equality of 2 values?
+•Which operator will return quotient of 2 integers?
+•Which operator will return remainder of 2 integers?
+•Which operator is called as overloaded operator?
+===================================
+•	2+3-5*6+7-9*3/2
+•	3*4-5/6+7-8*9+2-3*7
+•	6-7*8+9/5-8%3-7/2-3
+•	3*5-7+7*7-7/7+7%7
+•	3>=5-6+7-8
+•	2>=4 && 3==4
+•	2>=4 || 3==4
+•	What is the output of below code snippet?
+inti=5;	
+intj=6;
+i=i+j;
+j=j-i;
+System.out.println(i);
+System.out.println(j);
+•	What is the output of below code snippet?
+inti=2*3+5*6/7-3/2+7*6/3;
+intj=i-3*4-5*6+7-3*4+7;
+i=i+j;
+j=j-i*3/2;
+i=i*7/-2+5;
+j=j-3*4%7;
+System.out.println(i);
+System.out.println(j);
+•	 What is the output of below code snippet?
+int i = 3 * 4 - 6 + 7 / 2 + 4;
+int j = 3 * 5 - 6 / 7 + 8 % 9 - 3 * 5 + 7;
+  i = i + j;
+  j = j - i;
+System.out.println(i);
+System.out.println(j);
+•	What is the output of below code snippet?
+String a = "sathya";
+String b = "Tech";
+String c = a + b;
+System.out.println(c);
+•	 What is the output of below code snippet?       
+string s = "output is" + 2 + 3;
+System.out.println(s);
+•	What is the output of below code snippet?       
+string s = "output is" + (2 +3+5*6+7-3*5/6);
+System.out.println(s);
+•	What is the output of below code snippet?          
+bool b = 5+2-3*5+7/2-3/4>6-5+4*3/9+9-2/3;
+System.out.println(b);
+•	What is the output of below code snippet?        
+int i = 7;
+int j=3;
+bool b=i>=j;
+System.out.println(b);
+
+•	What is the output of below code snippet?          
+Console.WriteLine(2+3-5*6+7-8);
+print("sum is"+"abc"+"def");
+System.out.println("sum is"+2+3);
+System.out.println("sum is"+(2+4));
+System.out.println("output is"+2+3.5);
+System.out.println("output is"+(2>3));
+ console. log(12/5+” ”+12%5);
+====================
+Realtime scenarios:-
+1. consider 3 subject marks of the student are 70,80,90
+     Display total,percentage?
+2. consider pcost is 200/-
+     20% gst on pcost
+     display tbill?
+3. consider bsal of an emp is 20000
+     20 % bsal is da
+     30% bsal is hra 
+      Display tsal?
+4. consider principlevalue is 10000
+      rateofintrest is 5%
+      time period is 1 year 
+        disply simple intrest 
+=========================
+Relational Operators:- These operators are usd to compare 2 values or variables or Expressions and return a boolean value 
+  <  lessthan 		2<1      false	
+  > greaterthan 		5>2      true
+  <= lessthan or Equal		5<=2    false
+   >= Greatethan or Equal	5>=5     true
+   ==  Equal		5==2+3  true
+   != not equal 		5!=6        true 
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
